@@ -81,9 +81,24 @@ In main CMakeLists.txt
 
     Note Lib was Fatorial folder.
 
+<br>
+<br>
+<hr>
+
 ## Adding submodule
 
     git submodule add https://github.com/google/googletest.git external/gtest
 
 ![SC3](SC3.png)    
+
+In main CMakeLists.txt add line
+
+    add_subdirectory(external/gtest)
+
+
+![SC4](SC4.png)    
+
+## Preview of Gtest in main
+
+![SC5](SC5.png)
 
