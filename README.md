@@ -45,7 +45,7 @@ Run full code by
 
 ### Preview
 
-![SC](SC.png)
+![SC](IMG/SC.png)
 
 
 
@@ -59,7 +59,7 @@ Run full code by
         add_executable(${PROJECT_NAME} main.cpp factorial.cpp)
 
 
-![SC2](SC2.png)
+![SC2](IMG/SC2.png)
 
 <br>
 <br>
@@ -89,18 +89,18 @@ In main CMakeLists.txt
 
     git submodule add https://github.com/google/googletest.git external/gtest
 
-![SC3](SC3.png)    
+![SC3](IMG/SC3.png)    
 
 In main CMakeLists.txt add line
 
     add_subdirectory(external/gtest)
 
 
-![SC4](SC4.png)    
+![SC4](IMG/SC4.png)    
 
 ## Preview of Gtest in main
 
     -Reference https://developer.ibm.com/articles/au-googletestingframework/
 
-![SC5](SC5.png)
+![SC5](IMG/SC5.png)
 
