@@ -1,9 +1,9 @@
 #include <iostream>
-
+#include "Factorial/factorial.h"
 using namespace std;
 
 // declarations
-int factorial(int n);
+
 
 
 int main(int argc, char* argv[])
