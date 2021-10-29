@@ -46,3 +46,17 @@ Run full code by
 ### Preview
 
 ![SC](SC.png)
+
+
+
+<hr>
+
+## Adding more files to the project Simple Part
+
+    -Declare file.cxx
+    -Declare in main.cxx
+    -In CMakeListes modify :
+        add_executable(${PROJECT_NAME} main.cpp factorial.cpp)
+
+
+![SC2](SC2.png)
