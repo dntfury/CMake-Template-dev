@@ -81,3 +81,9 @@ In main CMakeLists.txt
 
     Note Lib was Fatorial folder.
 
+## Adding submodule
+
+    git submodule add https://github.com/google/googletest.git external/gtest
+
+![SC3](SC3.png)    
+
