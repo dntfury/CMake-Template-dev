@@ -15,15 +15,12 @@ TEST(FactorialTest, Positive) {
 
 class FooTest : public ::testing::Test {
  protected:
-  // You can remove any or all of the following functions if their bodies would
-  // be empty.
 
   void FactorialTest(){
      // You can do set-up work for each test here.
   }
 };
   
-
 int main(int argc, char* argv[])
 {   ::testing::InitGoogleTest(&argc, argv);
     cout << "hello from main!!!" << endl;
