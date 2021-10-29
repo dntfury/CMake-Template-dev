@@ -25,11 +25,11 @@ class FooTest : public ::testing::Test {
   
 
 int main(int argc, char* argv[])
-{
+{   ::testing::InitGoogleTest(&argc, argv);
     cout << "hello from main!!!" << endl;
     cout << "Factorial value :" << factorial(5) << endl ;
-    RUN_ALL_TESTS();
-    return 0;
+    
+    return RUN_ALL_TESTS();
 
 }
 
