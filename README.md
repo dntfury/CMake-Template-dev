@@ -68,4 +68,16 @@ Run full code by
 
 ## Build and add library
 
--
+- Make foder for lib* and add programm.cxx and program.h
+- Include program.h in program.cxx
+- touch CMakeLists.txt file in in Lib*
+    
+        add_library(<name> factorial.cxx)
+
+In main CMakeLists.txt
+
+    add_subdirectory(Lib*)
+    target_link_libraries(${PROJECT_NAME} <name>)
+
+    Note Lib was Fatorial folder.
+
